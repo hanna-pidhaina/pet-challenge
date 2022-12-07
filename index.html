@@ -35,7 +35,7 @@
         <div class="row text-center align-items-center">
           <div class="mona-name col-3">MO</div>
           <div class="col-6">
-            <button title="Click me">
+            <button title="Click me" id="meow">
               <img src="cat-up-say.png" alt="cat" class="img-fluid" />
             </button>
           </div>
@@ -45,16 +45,16 @@
       <section class="facts">
         <h3>Facts about me</h3>
         <div class="row align-items-center">
-          <div class="col-4 text-end">
+          <div class="col-md-4 text-center">
             <img
               src="cat-apple.png"
               class="mona-apple img-fluid"
               alt="cat face"
             />
           </div>
-          <div class="col-8">
+          <div class="col-md-8">
             <div class="row align-items-center">
-              <div class="col-3">
+              <div class="col-4">
                 <ul class="text-end">
                   <li>Age</li>
                   <li>Breed</li>
@@ -72,10 +72,17 @@
                   <li><i class="fa-solid fa-paw"></i></li>
                 </ul>
               </div>
-              <div class="col-7">
+              <div class="col-6">
                 <ul>
                   <li>12 y.o.</li>
-                  <li><a href="https://cattime.com/cat-breeds/laperm-cats#/slide/1" target="_blank">LaPerm</a></li>
+                  <li>
+                    <a
+                      href="https://cattime.com/cat-breeds/laperm-cats#/slide/1"
+                      target="_blank"
+                      title="Read about breed LaPerm"
+                      >LaPerm</a
+                    >
+                  </li>
                   <li>Dry food, raw meat/fish</li>
                   <li>Flat</li>
                   <li>Human feet</li>
@@ -85,60 +92,108 @@
           </div>
         </div>
       </section>
-      <section class="links">
+      <section class="facts">
         <h3>My story</h3>
         <div class="row">
-          <div class="col-8">
-        <ul>
-          <li></li><i class="fa-solid fa-cat"></i> My name is Mona. I'm ~ 12years old.
-          It's 60-65 years for human being. </li>
-           <li></li><i class="fa-solid fa-cat"></i> I've changed 3 families, and
-          currently live with Alex and Hanna in Slavutych (Ukraine). </li>
-           <li></li><i class="fa-solid fa-cat"></i> I'm very soft and warm what is
-          perfect for winter evenings with my humans. </li>
-           <li></li><i class="fa-solid fa-cat"></i> Usually I look like I'm
-          going to murder you, but don't be afraide - it's my usual facial
-          expression. In fact I'm very friendly and tactile. </li>
-           <li></li><i class="fa-solid fa-cat"></i> My bites show you
-          my true love. Fresh meat and human knees make me happy.</li>
-           <li></li><i class="fa-solid fa-cat"></i> Fresh meat and human knees make me happy.</li>
-        </ul>
-        </div>
-         <div class="col-4">
-           <img
+          <div class="col-sm-8">
+            <ul>
+              <li>
+                <i class="fa-solid fa-cat"></i> My name is Mona. I'm ~ 12years
+                old. It's 60-65 years for human being.
+              </li>
+              <li>
+                <i class="fa-solid fa-cat"></i> I've changed 3 families, and
+                currently live with Alex and Hanna in
+                <a
+                  href="https://visitslavutych.com/en/pro-slavutych/"
+                  target="_blank"
+                  title="Read more about Slavutych"
+                  >Slavutych</a
+                >
+                (Ukraine).
+              </li>
+              <li>
+                <i class="fa-solid fa-cat"></i> I'm very soft and warm what is
+                perfect for winter evenings with my humans.
+              </li>
+              <li>
+                <i class="fa-solid fa-cat"></i> Usually I look like I'm going to
+                murder you, but don't be afraide - it's my usual facial
+                expression. In fact I'm very friendly and tactile.
+              </li>
+              <li>
+                <i class="fa-solid fa-cat"></i> My bites show you my true love.
+                Fresh meat and human knees make me happy.
+              </li>
+              <li>
+                <i class="fa-solid fa-cat"></i> Fresh meat and human knees make
+                me happy.
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 hide">
+            <img
               src="cat-stands-flip.png"
-              class="mona-stands img-fluid"
+              class="mona-stands img-fluid d-none d-sm-inline"
               alt="cat stands on back paws"
             />
-         </div>
+          </div>
         </div>
-        <hr>
       </section>
-      <section class="links">
+      <section class="prediction" id="prediction-cats">
+        <h3>Choose cat and get prediction</h3>
+        <div class="prediction-cats">
+          <div class="row text-center align-items-center">
+            <div class="col-4">
+              <button title="Click me" class="cat">
+                <img src="cat-cut.png" alt="cat" class="w-75 img-fluid" />
+              </button>
+            </div>
+            <div class="col-4">
+              <button title="Click me" class="cat">
+                <img src="cat-cut.png" alt="cat" class="w-75 img-fluid" />
+              </button>
+            </div>
+            <div class="col-4">
+              <button title="Click me" class="cat">
+                <img src="cat-cut.png" alt="cat" class="w-75 img-fluid" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-4" />
 
+      <section class="links">
         <div>
           Check
           <a
             href="https://www.instagram.com/stories/highlights/17923905193616020/"
             target="_blank"
-            >my photos <i class="fa-solid fa-camera"></i></a
-          >
+            title="More photos of Mona"
+            >my photos <i class="fa-solid fa-camera"></i
+          ></a>
         </div>
         <div>
           Check
           <a
-            href="https://www.instagram.com/stories/highlights/17923905193616020/"
+            href="https://www.instagram.com/hanna_pidhaina/"
             target="_blank"
-            >my human <i class="fa-brands fa-instagram"></i></a
-          >
+            title="Go to Instagram of cat owner"
+            >my human <i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
-         <img
-              src="cat-cut.png"
-              class="mona-face img-fluid"
-              alt="cat face"
-            />
       </section>
     </div>
+    <footer class="text-center pt-2 pb-2">
+      <a href="https://github.com/hanna-pidhaina/pet-challenge" target="_blank">
+        Open source
+      </a>
+      code by
+      <a href="https://www.instagram.com/hanna_pidhaina/" target="_blank">
+        Hanna Pidhaina
+      </a>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>
