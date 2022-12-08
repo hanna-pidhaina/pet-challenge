@@ -119,4 +119,12 @@ hr {
     width: 30%;
   }
 }
-
+      @keyframes glowing {
+        0% {
+         filter: drop-shadow(10px 5px 10px var(--primary));
+        }
+     
+      }
+      .meow {
+        animation: glowing 1200ms infinite;
+      }
